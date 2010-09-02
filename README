@@ -1,0 +1,7 @@
+There's are cython bindings for
+
+    Python -> OSC
+
+Only sending is currently supported.
+
+There are 2 example patches for puredata in patches/ for you to test.
