@@ -1,0 +1,15 @@
+
+Make sure to install:
+    liblo-dev
+        - Lightweight OSC library -- development files
+
+    On Ubuntu I had to build Cython from source using:
+
+        python3 setup.py build
+
+    Because cython isn't packaged for python3 (yet)
+    And then point PYTHONPATH to /home/blaa/Cython-0.13/build/lib.linux-x86.../
+
+Run:
+    python3 setup.py build_ext
+    (or run the make.sh script)
